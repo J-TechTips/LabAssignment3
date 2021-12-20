@@ -54,8 +54,6 @@
 }
 .art-content {
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-column-gap: 1em;
 }
 .art-c1-content {
     display: grid;
@@ -168,7 +166,6 @@ h3.block-header-accent {
     background-color: #f1f1f1;
 }
 /* sidebar end */
-
 /* Footer Starer */
 .top-footer {
     background-color: #e7e7e7;
@@ -205,3 +202,24 @@ ul.footer-list > li > img {
     display: block;
 }
 /* Footer End */
+
+/* art container grid */ 
+
+.art-container-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+    justify-items: center;
+}
+.artist-card
+{
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+h2.small {
+    font-size: 1.5em;
+    padding: 20px 0px 10px;
+}
+/* end art container grid */
